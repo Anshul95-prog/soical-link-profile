@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(43, 39, 39);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.container {
+    background-color: rgb(34, 32, 32);
+    margin: 10px;
+    padding: 30px;
+}
+ 
+.circle-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+#para {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    margin-top: 0;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(73, 73, 67);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(63, 59, 59);
+}
